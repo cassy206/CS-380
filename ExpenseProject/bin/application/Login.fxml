@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #C4A484;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button layoutX="37.0" layoutY="196.0" mnemonicParsing="false" onAction="#Login" prefHeight="45.0" prefWidth="98.0" text="Login" />
+      <PasswordField fx:id="passID" layoutX="37.0" layoutY="139.0" prefHeight="36.0" prefWidth="227.0" promptText="Password" />
+      <TextField fx:id="unID" layoutX="37.0" layoutY="88.0" prefHeight="36.0" prefWidth="227.0" promptText="UserName" />
+      <Label fx:id="sID" layoutX="16.0" layoutY="28.0" prefHeight="45.0" prefWidth="240.0" text="Status" textFill="#ee1f1f">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="166.0" layoutY="196.0" mnemonicParsing="false" onAction="#createUser" prefHeight="45.0" prefWidth="98.0" text="Create&#10;Account" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
